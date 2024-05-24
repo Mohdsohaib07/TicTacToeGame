@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TicTacToeGame</title>
+</head>
+<body>
+    <h1>Tic-Tac-Toe</h1>
+   
+       <h2 id="ab">who will Play first ?</h2>
+       <div class="options">
+       <p id="X" onclick=" userChoice('X')">X</p> <p id="O" onclick=" userChoice('O')">O</p>
+    </div>
+    
+    <div class="container">
+        <button class="choice" onclick="chosen(1)">1</button>
+        <button class="choice" onclick="chosen(2)">2</button>
+        <button class="choice" onclick="chosen(3)">3</button>
+        <button class="choice" onclick="chosen(4)">4</button>
+        <button class="choice" onclick="chosen(5)">5</button>
+        <button class="choice" onclick="chosen(6)">6</button>
+        <button class="choice" onclick="chosen(7)">7</button>
+        <button class="choice" onclick="chosen(8)">8</button>
+        <button class="choice" onclick="chosen(9)">9</button>
+    </div>
+    <div class="res" onclick="reset()">Click to Restart</div>
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
